@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.main{
+  background:linear-gradient(to top,rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)200%),url(bk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.navbar{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+   
+}
+.logo{
+    color:#ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    float: left;
+    width: 400px;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ ul li { 
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    }
+    ul li a:hover{
+        color: #ff7200;
+    }
+    .search{
+        width: 330px;
+        float: left;
+        margin-left: 270px;
+    }
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid orangered;
+        margin-top: 13px;
+        color:white;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5x;
+        border-top-left-radius: 5px;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background: #ff7200;
+        border: 2px solid #ff7200;
+        margin-top: 13px;
+        color: white;
+        font-size: 13px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .btn:focus{
+        outline: none;
+    }
+    .srch:focus{
+        outline: none;
+    }
+    .content{ width: 1200px;
+        height: auto;
+        margin: auto;
+        color: white;
+        position: relative;
+    }
+    .content .pra {
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        line-height: 30px;
+         
+    }
+    .content h1{ 
+        font-family: 'Times New Roman';
+        font-size: 50px;
+        padding-left: 20px;
+        margin-top: 9%;
+        letter-spacing: 2px;
+    }
+    .content .bn{
+width: 160px;
+height: 40px;
+background: #ff7200;
+font-weight: bold;
+font-family: Arial;
+border: none;
+margin-bottom: 10px;
+margin-left: 20px;
+font-size: 18x;
+border-radius: 20px;
+cursor: pointer;
+transition: 1s ease;
+    }
+    .content .bn a{
+        font-family: Arial;
+        text-decoration: none;
+        color: black;
+      
+        font-size: 25px;
+       
+    }
+    .bn:hover{
+        background-color: white;
+    }
+    .content span{
+        color: #ff7200;
+    }
+    .form{
+        width: 250px;
+        height: 400px;
+  background-color: black;
+opacity: 0.8;
+     position: absolute;
+     margin-top: -300px;
+  margin-left: 870px;
+  border-radius:10px;
+  padding: 20px;
+    }
+    .form h2{
+        width: 220px;
+        font-family: sans-serif;
+        text-align: center;
+        color: #ff7200;
+        font-size: 22px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+        margin: 2px;
+    }
+    .form input{
+        width: 240px;
+        height: 35px;
+        background:transparent;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    .form :focus{
+        outline: none;
+    }
+    ::placeholder{
+        color: white;
+        font-family: Arial;
+    }
+    .btn1{
+        width: 240px;
+        height: 40px;
+      background: #ff7200;
+      border: none;
+      margin-top: 30px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      color: white;
+      transition: 0.4s ease;
+    }
+    .btn1:hover{
+        background: white;
+        color: #ff7200;
+     
+    }
+    .btn1 a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold ;
+    }
+    .link{
+        font-family: Arial;
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+    }
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.ion a{
+    text-decoration: none;
+    color: white;
+}
+.ion ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+.ion ion-icon:hover{
+    color: #ff7200;
+}
+
+/*-------------about us page--------------*/
+
+
+
+.about{
+    width: 100%;
+    height: 100%;
+    
+    background:linear-gradient(to top,rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)200%),url(bk.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar2{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+}
+.icon2{
+    width: 200px;
+    float: left;
+    height: 70px;
+   
+}
+.logo2{
+    color:#ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+}
+.menu2{
+    float: left;
+    width: 400px;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ ul li { 
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    }
+    ul li a:hover{
+        color: #ff7200;
+    }
+    .search2{
+        width: 330px;
+        float: left;
+        margin-left: 270px;
+    }
+    .src{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid orangered;
+        margin-top: 13px;
+        color:white;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5x;
+        border-top-left-radius: 5px;
+    }
+
+
+.about-text{
+    display: block;
+    width: 550px;
+    padding-top: 40px;
+    
+}
+.mn{
+    padding-top: 30px;
+    width: 800px;
+    min-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+.about-text h1{
+    color:#ff7200; 
+    font-family: serif; 
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+    
+}
+.about-text h5{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: Arial;
+    letter-spacing: 2pxs;
+}
+span{
+    color: #ff7200;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.bt{
+  margin-left: 249px;
+ 
+}
+
+.about-text button{
+    width: 160px;
+height: 40px;
+align-items: center;
+font-family: sans-serif;
+font-weight: bold;
+background: #ff7200;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+margin-top: 20px;
+margin-left: -94px;
+
+display: inline;
+transition: 1s;
+}
+.about-text button:hover{
+    background-color: white;
+    color: #ff7200;
+   
+}
+.soci a{
+    text-decoration: none;
+    color: white;
+}
+.soci ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.soci ion-icon:hover{
+    transition: 0.4s;
+    color: #ff7200;
+}
+.image{
+    width: 200px;
+     height: 600px;
+ 
+     
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border: solid 1px #ff7200;
+    border-radius: 50%;
+    padding: 8px;
+    
+}
+.image h3{
+    color: #ff7200;
+    margin: 10px;
+    border-bottom:solid 1px white;
+text-align: center;
+padding-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+  
+/*--------------------------contact page--------------*/
+.contact{
+background:linear-gradient(to top,rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)200%),url(bk.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+.contact-form{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin-top: 150px;
+ margin-left: 500px;
+
+}
+.contact-form :focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.contact-form input{
+    width: 470px;
+    height: 35px;
+    background:transparent;
+    border-bottom: 1px solid #ff7200;
+    max-lines: 1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.contact-form h2{
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #ff7200;
+    font-size: 50px;
+
+  
+}
+.sendbtn{
+    width: 240px;
+    height: 40px;
+  background: #ff7200;
+  border: none;
+align-items: center;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: 0.4s ease;
+}
+.sendbtn:hover{
+    background: white;
+    color: #ff7200;
+ 
+}
+.sendbtn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold ;
+    
+}
+.contact-ion a{
+    text-decoration: none;
+    color: white;
+}
+.contact-ion ion-icon{
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+.contact-ion ion-icon:hover{
+    color: #ff7200;
+}
+
+
+
+/*----------------services page------------------------------*/
+
+.services-page{
+    background:linear-gradient(to top,rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)200%),url(bk.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.services{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+.services h1{
+    position: absolute;
+     top: 140px;
+     color: white;
+     font-size: 60px;
+  
+}
+     
+.service{
+    width: 1180px;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    position: relative;
+background-color: black;
+opacity: 0.8;
+border: solid 1px #ff7200;
+border-radius: 20px;
+margin-top: 200px;
+padding-top:  45px;
+padding-bottom: 40px;
+width: 350px;
+height: auto;
+}
+.box i{
+    font-size: 36px;
+    color: #ff7200;
+    margin-bottom: 20px;
+}
+.box h4{
+    font-size: 22px;
+    font-family:serif;
+    color:#ff7200;
+    margin-bottom: 20px;
+    letter-spacing: 1px ;
+}
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+button{
+    background-color: #ff7200;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 20px;
+    font-family: serif;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*----------------------courses------------------*/
+.course{
+    width: 85%;
+    margin: auto;
+    margin-top: 30PX;
+}
+.heading-section{
+    width: 60%;
+
+    text-align: center;
+    margin: auto;
+}
+.heading-section h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: #ff7200;
+    font-family: serif;
+}
+.heading-section p{
+    padding-top: 15px;
+    font-size: 17px;
+    color: rgb(250, 248, 248);
+    font-family:  sans-serif;
+    line-height: 1.5;
+}
+.content-section{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content-section .card{
+flex: 1px;
+margin: 40px 20px
+}
+.content-section .card img{
+   width: 350px; 
+    height: 200px;
+    border: solid 1px #ff7200;
+}
+.content-section .card h4{
+    font-size: 30px;
+    font-family: serif;
+    color: #ff7200;
+}
+@media  screen and (max-width:780px) {
+    .content-section{
+        flex-direction: column;
+    }
+    
+}
